@@ -37,18 +37,20 @@ Used React Js for developing reusable components.Collaborated with frontend deve
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "WXP and IXP Application",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+     `Windows based Engineering Tool was used for the past 10 Years, which was software based and need to be installed in client PC we have developed actuators called Weight XP and Induction XP
+We have developed web based, Application instead of software application were client can directly assess web in order to Avoid Firewall problems.`,
+    technologies: ["Javascript", "React.js", "typescript","Azure Devops"],
   },
   {
-    title: "Task Management App",
+    title: "POS Forms",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+     `Private office service (POS) to engage with private bankers and associates private banker when undertaking the identification of clients and to comply with anti-money laundering obligation for
+new to bank and new to private wealth while supporting the delivery of high-quality service to clients`,
+    technologies: ["HTML", "CSS", "react.js"],
   },
   {
     title: "Portfolio Website",
@@ -57,17 +59,10 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+ 
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  phoneNo: "+91 9640302047 ",
+  email: "vishalvish1810@gmail.com",
 };
