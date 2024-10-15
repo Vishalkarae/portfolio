@@ -12,10 +12,10 @@ const Navbar=()=>{
     </div>
    </nav>
    <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-    <FaLinkedin/>
-    <FaGithub/>
-    <FaSquareXTwitter/>
-    <FaInstagram/>
+    <a className='no-underline cursor-pointer hover:shadow-lg hover:shadow-blue-500 transition duration-300' href='https://www.linkedin.com/in/vishal-karae-84b80026b/'><FaLinkedin/></a>
+    <a className='no-underline cursor-pointer hover:shadow-lg hover:shadow-blue-500 transition duration-300' href='https://github.com/Vishalkarae'><FaGithub/></a>
+    <a className='no-underline cursor-pointer hover:shadow-lg hover:shadow-blue-500 transition duration-300' href='/'><FaSquareXTwitter/></a>
+    <a className='no-underline cursor-pointer hover:shadow-lg hover:shadow-blue-500 transition duration-300' href='/'><FaInstagram/></a>
    </div>
         </>
     )
