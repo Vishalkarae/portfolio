@@ -1,4 +1,4 @@
-import aboutImg from '../assets/about.jpg'
+import aboutImg from '../assets/cover.jpg'
 import { ABOUT_TEXT } from '../constants'
 import { motion } from "framer-motion"
 const About=()=>{
@@ -10,7 +10,7 @@ const About=()=>{
             <div className="flex flex-wrap ">
                 <div className="w-full lg:w-1/2 lg:p-8">
                 <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.5}} className="flex items-center justify-center">
-                    <img className='rounded' src={aboutImg} alt="about"/>
+                    <img className='rounded h-[400px] w-[300px] mb-12' src={aboutImg} alt="about"/>
 
                 </motion.div>
                     
